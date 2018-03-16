@@ -103,7 +103,8 @@ namespace Barrage.UI
             if (room != 0)
             {
                 Start(room);
-            }else
+            }
+            else
             {
                 if (settingWindow == null)
                     settingWindow = new SettingWindow(this);
@@ -225,7 +226,7 @@ namespace Barrage.UI
             animation.To = 0;
             animation.Duration = TimeSpan.FromSeconds(initspeed);
             animation.AutoReverse = false;
-            animation.RepeatBehavior = RepeatBehavior.Forever;
+            //animation.RepeatBehavior = RepeatBehavior.Forever;
             animation.Completed += (object sender, EventArgs e) =>
             {
                 canvas.Children.Remove(textblock);
