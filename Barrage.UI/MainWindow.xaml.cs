@@ -44,7 +44,8 @@ namespace Barrage.UI
             this.notifyIcon.BalloonTipText = "已停止... ...";
             this.notifyIcon.ShowBalloonTip(2000);
             this.notifyIcon.Text = "已停止... ...";
-            this.notifyIcon.Icon = new System.Drawing.Icon(@"logo.ico");
+
+            this.notifyIcon.Icon = UI.Properties.Resources.logo;
             this.notifyIcon.Visible = true;
             //退出菜单项
             System.Windows.Forms.MenuItem exit = new System.Windows.Forms.MenuItem("退出");
