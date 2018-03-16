@@ -44,6 +44,7 @@ namespace Barrage.UI
             this.notifyIcon.BalloonTipText = "已停止... ...";
             this.notifyIcon.ShowBalloonTip(2000);
             this.notifyIcon.Text = "已停止... ...";
+            
 
             this.notifyIcon.Icon = UI.Properties.Resources.logo;
             this.notifyIcon.Visible = true;

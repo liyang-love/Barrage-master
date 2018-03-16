@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Barrage.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="678.41" Width="785.765" WindowStartupLocation="CenterScreen" Icon="logo.ico" Background="Transparent"  AllowsTransparency="True" WindowStyle="None" WindowState="Maximized" Topmost="True" ShowInTaskbar="False">
+        Title="斗鱼弹幕" Height="678.41" Width="785.765" WindowStartupLocation="CenterScreen" Icon="logo.ico" Background="Transparent"  AllowsTransparency="True" WindowStyle="None" WindowState="Maximized" Topmost="True" ShowInTaskbar="False">
 
     <Grid Name="root">
         <Canvas Name="canvas"/>
