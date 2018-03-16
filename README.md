@@ -3,4 +3,4 @@
 
 ## 效果图：
 ### Form
-![image](https://github.com/YuanJianTing/WinForm.UI/blob/master/WinForm.UI/WinForm.UI.Test/screenshot/form.png)
+![image](https://github.com/YuanJianTing/Barrage-master/blob/master/screenshot.png)
