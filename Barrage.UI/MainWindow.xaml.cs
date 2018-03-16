@@ -253,7 +253,7 @@ namespace Barrage.UI
         /// <param name="e"></param>
         void MainWindow_Deactivated(object sender, EventArgs e)
         {
-            this.Topmost = true;
+            //this.Topmost = true;
         }
 
         protected override void OnClosing(CancelEventArgs e)
