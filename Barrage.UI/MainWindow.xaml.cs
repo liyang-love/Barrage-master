@@ -102,6 +102,11 @@ namespace Barrage.UI
             if (room != 0)
             {
                 Start(room);
+            }else
+            {
+                if (settingWindow == null)
+                    settingWindow = new SettingWindow(this);
+                settingWindow.Show();
             }
         }
 
