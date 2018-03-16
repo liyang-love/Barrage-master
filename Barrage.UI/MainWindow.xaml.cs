@@ -113,6 +113,7 @@ namespace Barrage.UI
 
         public void Start(int room)
         {
+            UpdateState("正在启动请稍等... ...");
             DouyuConfig.room = room;
             if (craw != null)
             {
@@ -132,17 +133,19 @@ namespace Barrage.UI
                 craw.ErrorHandler += Auth_ErrorHandler;
                 craw.LogHandler += Auth_LogHandler;
                 craw.Start();
+                m_SyncContext.Post(UpdateState,"弹幕服务器连接成功...");
             };
             auth.ErrorHandler += Auth_ErrorHandler;
             auth.LogHandler += Auth_LogHandler;
             auth.Start();
-            UpdateState("运行中... ...");
+           
         }
 
-        private void UpdateState(string state)
+        private void UpdateState(object state)
         {
-            notifyIcon.Text = state;
-            notifyIcon.BalloonTipText = state;
+            notifyIcon.Text = state.ToString();
+            notifyIcon.BalloonTipText = state.ToString();
+            notifyIcon.ShowBalloonTip(3000);
         }
 
         #region 回掉

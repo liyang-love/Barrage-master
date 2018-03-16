@@ -7,8 +7,8 @@ using System.Windows;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Barrage.UI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("斗鱼弹幕")]
+[assembly: AssemblyDescription("斗鱼弹幕")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Barrage.UI")]
